@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <cctype>
-
 using namespace std;
 /*----成员结构体----*/
 struct member{
@@ -32,7 +31,6 @@ public:
 	member * memberCreate();     //成员生成函数
 	void ancestorCreate();       //根节点生成函数
 };
-
 familyTree::familyTree(){
 	ancestor = new member;
 	ancestor->m_name = "";
